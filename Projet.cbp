@@ -7,8 +7,8 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Projet" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Debug/" />
+				<Option output="bin\Debug\Projet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -16,8 +16,8 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Projet" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Release/" />
+				<Option output="bin\Release\Projet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -32,10 +32,30 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Buisson.cpp" />
+		<Unit filename="Buisson.h" />
+		<Unit filename="Element.cpp" />
+		<Unit filename="Element.h" />
+		<Unit filename="Enfant.cpp" />
+		<Unit filename="Enfant.h" />
+		<Unit filename="Femme.cpp" />
+		<Unit filename="Femme.h" />
+		<Unit filename="Homme.cpp" />
+		<Unit filename="Homme.h" />
+		<Unit filename="Lapin.cpp" />
+		<Unit filename="Lapin.h" />
+		<Unit filename="MembreDuPeuple.cpp" />
+		<Unit filename="MembreDuPeuple.h" />
+		<Unit filename="Mobile.cpp" />
+		<Unit filename="Mobile.h" />
 		<Unit filename="Monde.cpp" />
 		<Unit filename="Monde.h" />
+		<Unit filename="Peuple.cpp" />
+		<Unit filename="Peuple.h" />
 		<Unit filename="Position.cpp" />
 		<Unit filename="Position.h" />
+		<Unit filename="Ressource.cpp" />
+		<Unit filename="Ressource.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="utilitaire.cpp" />
 		<Unit filename="utilitaire.h" />

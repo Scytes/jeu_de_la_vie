@@ -1,17 +1,74 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
+	<File name="Buisson.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="189" topLine="0" />
+	</File>
+	<File name="Buisson.h" open="1" top="0" tabpos="9">
+		<Cursor position="283" topLine="0" />
+	</File>
+	<File name="Element.h" open="1" top="0" tabpos="26">
+		<Cursor position="65" topLine="0" />
+	</File>
+	<File name="Enfant.cpp" open="1" top="0" tabpos="18">
+		<Cursor position="159" topLine="0" />
+	</File>
+	<File name="Enfant.h" open="1" top="0" tabpos="10">
+		<Cursor position="345" topLine="0" />
+	</File>
+	<File name="Femme.cpp" open="1" top="0" tabpos="19">
+		<Cursor position="157" topLine="0" />
+	</File>
+	<File name="Femme.h" open="1" top="0" tabpos="11">
+		<Cursor position="319" topLine="0" />
+	</File>
+	<File name="Homme.cpp" open="1" top="0" tabpos="20">
+		<Cursor position="157" topLine="0" />
+	</File>
+	<File name="Homme.h" open="1" top="0" tabpos="12">
+		<Cursor position="305" topLine="0" />
+	</File>
+	<File name="Lapin.cpp" open="1" top="0" tabpos="21">
+		<Cursor position="157" topLine="0" />
+	</File>
+	<File name="Lapin.h" open="1" top="0" tabpos="13">
+		<Cursor position="295" topLine="0" />
+	</File>
+	<File name="MembreDuPeuple.cpp" open="1" top="0" tabpos="22">
+		<Cursor position="175" topLine="0" />
+	</File>
+	<File name="MembreDuPeuple.h" open="1" top="0" tabpos="14">
+		<Cursor position="418" topLine="5" />
+	</File>
+	<File name="Mobile.cpp" open="1" top="0" tabpos="23">
+		<Cursor position="159" topLine="0" />
+	</File>
+	<File name="Mobile.h" open="1" top="0" tabpos="15">
+		<Cursor position="306" topLine="0" />
+	</File>
 	<File name="Monde.cpp" open="1" top="0" tabpos="2">
 		<Cursor position="0" topLine="0" />
 	</File>
 	<File name="Monde.h" open="1" top="0" tabpos="3">
 		<Cursor position="96" topLine="0" />
 	</File>
+	<File name="Peuple.cpp" open="1" top="0" tabpos="24">
+		<Cursor position="159" topLine="0" />
+	</File>
+	<File name="Peuple.h" open="1" top="0" tabpos="16">
+		<Cursor position="297" topLine="2" />
+	</File>
 	<File name="Position.cpp" open="1" top="0" tabpos="4">
 		<Cursor position="109" topLine="0" />
 	</File>
 	<File name="Position.h" open="1" top="0" tabpos="5">
 		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Ressource.cpp" open="1" top="0" tabpos="25">
+		<Cursor position="165" topLine="0" />
+	</File>
+	<File name="Ressource.h" open="1" top="1" tabpos="17">
+		<Cursor position="304" topLine="0" />
 	</File>
 	<File name="main.cpp" open="1" top="0" tabpos="1">
 		<Cursor position="0" topLine="0" />
@@ -20,6 +77,6 @@
 		<Cursor position="0" topLine="0" />
 	</File>
 	<File name="utilitaire.h" open="1" top="0" tabpos="7">
-		<Cursor position="90" topLine="0" />
+		<Cursor position="401" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>
