@@ -11,7 +11,28 @@ Position::Position ()
 
 Position::Position (unsigned int pAbscisse, unsigned int pOrdonnee) : abscisse(pAbscisse), ordonnee(pOrdonnee) {}
 
-// Getters
+
+bool Position::operator<(const Position pos) const
+{
+    if(abscisse < pos.abscisse)
+    {
+        return true;
+    }
+    else if(abscisse == pos.abscisse)
+    {
+        if(ordonnee < pos.ordonnee)
+        {
+            return true;
+        }
+        else
+            return false;
+    }
+    else
+    {
+        return false;
+    }
+}
+
 
 unsigned int Position::getAbscisse() const
 {

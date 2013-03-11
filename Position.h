@@ -8,12 +8,14 @@ class Position
     private :
 		unsigned int abscisse; // Variable des abscisses
 		unsigned int ordonnee; // Variable des ordonnées
-
 	public :
 
         // Constructeurs
         Position();
         Position(unsigned int, unsigned int);
+
+        //Iterateur
+        bool operator < ( const Position &) const ;
 
         // Getters
         unsigned int getAbscisse() const;
@@ -21,3 +23,4 @@ class Position
 };
 
 #endif
+
