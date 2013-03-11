@@ -1,5 +1,5 @@
-#include"Position.h"
-#include<iostream>
+#include "Position.h"
+#include <iostream>
 
 // Constructeurs
 
