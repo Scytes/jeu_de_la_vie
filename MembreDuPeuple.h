@@ -15,17 +15,17 @@
 
 class MembreDuPeuple : public Element
 {
-private:
-	int pv;
-	int age;
-	int esperanceDeVie;
-	int forceAuCombat;
-	int vision;
-public:
-	void MembreDuPeuple();
-	void setPV();
-	void setAge();
-	void setEsperanceDeVie();
+    private:
+        int pv;
+        int age;
+        int esperanceDeVie;
+        int forceAuCombat;
+        int vision;
+    public:
+        MembreDuPeuple();
+        void setPV();
+        void setAge();
+        void setEsperanceDeVie();
 };
 
 #endif  //_MEMBREDUPEUPLE_H

@@ -15,10 +15,10 @@
 
 class Ressource : public Element
 {
-private:
-	int qteDeRessource;
-public:
-	void Ressource();
+    private:
+        int qteDeRessource;
+    public:
+        Ressource();
 };
 
 #endif  //_RESSOURCE_H

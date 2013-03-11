@@ -10,7 +10,7 @@
 
 #include "Homme.h"
 
-void Homme::Homme()
+Homme::Homme()
 {
 
 }

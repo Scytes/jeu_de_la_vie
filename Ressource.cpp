@@ -10,7 +10,7 @@
 
 #include "Ressource.h"
 
-void Ressource::Ressource()
+Ressource::Ressource()
 {
 
 }

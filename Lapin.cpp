@@ -10,7 +10,7 @@
 
 #include "Lapin.h"
 
-void Lapin::Lapin()
+Lapin::Lapin()
 {
 
 }

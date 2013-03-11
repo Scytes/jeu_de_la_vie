@@ -10,7 +10,7 @@
 
 #include "Mobile.h"
 
-void Mobile::Mobile()
+Mobile::Mobile()
 {
 
 }

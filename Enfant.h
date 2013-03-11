@@ -16,8 +16,8 @@
 
 class Enfant : public Mobile, public MembreDuPeuple
 {
-public:
-	void Enfant();
+    public:
+        Enfant();
 };
 
 #endif  //_ENFANT_H

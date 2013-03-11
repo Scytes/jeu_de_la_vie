@@ -10,7 +10,7 @@
 
 #include "Enfant.h"
 
-void Enfant::Enfant()
+Enfant::Enfant()
 {
 
 }

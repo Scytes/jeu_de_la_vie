@@ -10,7 +10,7 @@
 
 #include "Buisson.h"
 
-void Buisson::Buisson()
+Buisson::Buisson()
 {
 
 }

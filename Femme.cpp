@@ -10,7 +10,7 @@
 
 #include "Femme.h"
 
-void Femme::Femme()
+Femme::Femme()
 {
 
 }

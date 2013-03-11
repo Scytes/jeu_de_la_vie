@@ -14,11 +14,11 @@
 
 class Mobile
 {
-private:
-	int vitesseDeDeplacement;
-public:
-	void Mobile();
-	void seDeplacer();
+    private:
+        int vitesseDeDeplacement;
+    public:
+        Mobile();
+        void seDeplacer();
 };
 
 #endif  //_MOBILE_H

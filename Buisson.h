@@ -15,8 +15,8 @@
 
 class Buisson : public Ressource
 {
-public:
-	void Buisson();
+    public:
+        Buisson();
 };
 
 #endif  //_BUISSON_H

@@ -14,15 +14,15 @@
 
 class Peuple
 {
-private:
-	int nbrElements;
-	int qteRessources;
-public:
-	void Peuple();
-	void getNbrElement();
-	void getQteRessource();
-	void setNbrElement();
-	void setQteRessource();
+    private:
+        int nbrElements;
+        int qteRessources;
+    public:
+        Peuple();
+        void getNbrElement();
+        void getQteRessource();
+        void setNbrElement();
+        void setQteRessource();
 };
 
 #endif  //_PEUPLE_H

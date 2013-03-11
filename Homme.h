@@ -16,8 +16,8 @@
 
 class Homme : public Mobile, public MembreDuPeuple
 {
-public:
-	void Homme();
+    public:
+        Homme();
 };
 
 #endif  //_HOMME_H

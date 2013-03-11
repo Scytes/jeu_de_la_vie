@@ -16,8 +16,8 @@
 
 class Lapin : public Ressource, public Mobile
 {
-public:
-	void Lapin();
+    public:
+        Lapin();
 };
 
 #endif  //_LAPIN_H

@@ -10,7 +10,7 @@
 
 #include "Peuple.h"
 
-void Peuple::Peuple()
+Peuple::Peuple()
 {
 
 }

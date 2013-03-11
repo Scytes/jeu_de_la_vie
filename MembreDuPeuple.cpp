@@ -10,7 +10,7 @@
 
 #include "MembreDuPeuple.h"
 
-void MembreDuPeuple::MembreDuPeuple()
+MembreDuPeuple::MembreDuPeuple()
 {
 
 }
