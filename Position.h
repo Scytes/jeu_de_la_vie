@@ -18,8 +18,8 @@ class Position
         bool operator < ( const Position &) const ;
 
         // Getters
-        unsigned int getAbscisse() const;
-        unsigned int getOrdonnee() const;
+        unsigned int getAbscisse() const ;
+        unsigned int getOrdonnee() const ;
 
         // Générateur
         /**
