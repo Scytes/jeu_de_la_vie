@@ -14,10 +14,13 @@
 #include "Mobile.h"
 #include "Adulte.h"
 
+using namespace std;
+
 class Homme : public Mobile, public Adulte
 {
     public:
         Homme();
+        Homme(unsigned int _pv, unsigned int _age, unsigned int _esperanceDeVie, unsigned int _forceAuCombat, unsigned int _vision, unsigned int _vitesse );
 };
 
 #endif  //_HOMME_H

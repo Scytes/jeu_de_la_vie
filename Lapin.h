@@ -11,6 +11,7 @@
 #if !defined(_LAPIN_H)
 #define _LAPIN_H
 
+#include "MembreDuPeuple.h"
 #include "Ressource.h"
 #include "Mobile.h"
 
@@ -20,6 +21,7 @@ class Lapin : public Ressource, public Mobile
 {
     public:
         Lapin();
+        void morde( MembreDuPeuple _MembreDP);
 };
 
 #endif  //_LAPIN_H

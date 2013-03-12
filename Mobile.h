@@ -11,14 +11,17 @@
 #if !defined(_MOBILE_H)
 #define _MOBILE_H
 
+using namespace std;
 
 class Mobile
 {
     private:
-        int vitesseDeDeplacement;
+        unsigned int vitesseDeDeplacement;
     public:
         Mobile();
-        Mobile(int _vdedep);
+        Mobile(unsigned int _vdedep);
+
+        const unsigned int & getVitesse() const;
         void seDeplacer();
 };
 

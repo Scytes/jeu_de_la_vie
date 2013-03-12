@@ -19,8 +19,23 @@ MembreDuPeuple::MembreDuPeuple()
     vision = 0;
 }
 
-MembreDuPeuple::MembreDuPeuple(int _pv, int _age, int _esperanceDeVie, int _forceAuCombat, int _vision ) : pv(_pv), age(_age), esperanceDeVie(_esperanceDeVie), forceAuCombat(_forceAuCombat), vision(_vision) {}
+MembreDuPeuple::MembreDuPeuple(unsigned int _pv, unsigned int _age, unsigned int _esperanceDeVie, unsigned int _forceAuCombat, unsigned int _vision ) : pv(_pv), age(_age), esperanceDeVie(_esperanceDeVie), forceAuCombat(_forceAuCombat), vision(_vision) {}
 
+// Getters
+unsigned int getPV()
+{
+    return pv;
+}
+unsigned int getAge()
+{
+    return age;
+}
+unsigned int getEsperanceDeVie()
+{
+    return esperanceDeVie;
+}
+
+// Setters
 void MembreDuPeuple::setPV(_newPV)
 {
     pv = _newPV;

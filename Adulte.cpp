@@ -7,8 +7,7 @@
 //
 //
 
-
 #include "Adulte.h"
 
-Adulte::Adulte() : MembreDuPeuple() {}
+Adulte::Adulte(unsigned int _pv, unsigned int _age, unsigned int _esperanceDeVie, unsigned int _forceAuCombat, unsigned int _vision) : MembreDuPeuple(_pv, _age, _esperanceDeVie, _forceAuCombat, _vision) {}
 

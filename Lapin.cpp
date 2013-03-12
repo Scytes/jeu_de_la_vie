@@ -10,4 +10,9 @@
 #include "constantes.h"
 #include "Lapin.h"
 
-Lapin::Lapin() : Ressource(VAL_LAPIN_RESSOURCE),Mobile(){}
+Lapin::Lapin() : Ressource(VAL_LAPIN_RESSOURCE),Mobile(LAPIN_VITESSE){}
+
+void Morde(_MembreDP)
+{
+    _MembreDP.setPV(_MembreDP.getPV() - LAPIN_DEGATS);
+}
