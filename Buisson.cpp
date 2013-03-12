@@ -7,7 +7,7 @@
 //
 //
 
-
+#include "constantes.h"
 #include "Buisson.h"
 
-Buisson::Buisson() : Ressource(3){}
+Buisson::Buisson() : Ressource(VAL_BUISSON_RESSOURCE){}

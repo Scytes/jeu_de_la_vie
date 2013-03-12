@@ -7,7 +7,7 @@
 //
 //
 
-
+#include "constantes.h"
 #include "Lapin.h"
 
-Lapin::Lapin() : Ressource(6),Mobile(){}
+Lapin::Lapin() : Ressource(VAL_LAPIN_RESSOURCE),Mobile(){}
