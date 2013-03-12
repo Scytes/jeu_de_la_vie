@@ -18,6 +18,7 @@ class Mobile
         int vitesseDeDeplacement;
     public:
         Mobile();
+        Mobile(int _vdedep);
         void seDeplacer();
 };
 

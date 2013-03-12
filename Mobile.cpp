@@ -12,8 +12,10 @@
 
 Mobile::Mobile()
 {
-
+    vitesseDeDeplacement = 0;
 }
+
+Mobile::Mobile(int _vdedep) : vitesseDeDeplacement(_vdedep){}
 
 void Mobile::seDeplacer()
 {

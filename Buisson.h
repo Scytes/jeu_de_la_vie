@@ -13,6 +13,8 @@
 
 #include "Ressource.h"
 
+using namespace std;
+
 class Buisson : public Ressource
 {
     public:

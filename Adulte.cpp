@@ -1,13 +1,14 @@
 //
 //
 //  @ Project : Jeu de la vie
-//  @ File Name : Lapin.cpp
+//  @ File Name : Adulte.cpp
 //  @ Date : 11/03/2013
 //  @ Author : Xavier chalut
 //
 //
 
 
-#include "Lapin.h"
+#include "Adulte.h"
 
-Lapin::Lapin() : Ressource(6),Mobile(){}
+Adulte::Adulte() : MembreDuPeuple() {}
+

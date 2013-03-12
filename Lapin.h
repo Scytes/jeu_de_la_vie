@@ -14,6 +14,8 @@
 #include "Ressource.h"
 #include "Mobile.h"
 
+using namespace std;
+
 class Lapin : public Ressource, public Mobile
 {
     public:

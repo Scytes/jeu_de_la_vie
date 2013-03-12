@@ -19,6 +19,7 @@ class Ressource : public Element
         int qteDeRessource;
     public:
         Ressource();
+        Ressource(int _qteRess);
 };
 
 #endif  //_RESSOURCE_H

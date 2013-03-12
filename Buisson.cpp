@@ -10,8 +10,4 @@
 
 #include "Buisson.h"
 
-Buisson::Buisson()
-{
-
-}
-
+Buisson::Buisson() : Ressource(3){}

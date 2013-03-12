@@ -23,6 +23,7 @@ class MembreDuPeuple : public Element
         int vision;
     public:
         MembreDuPeuple();
+        MembreDuPeuple(int _pv, int _age, int _esperanceDeVie, int _forceAuCombat, int _vision );
         void setPV();
         void setAge();
         void setEsperanceDeVie();

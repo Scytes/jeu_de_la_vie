@@ -12,9 +12,9 @@
 #define _FEMME_H
 
 #include "Mobile.h"
-#include "MembreDuPeuple.h"
+#include "Adulte.h"
 
-class Femme : public Mobile, public MembreDuPeuple
+class Femme : public Mobile, public adulte
 {
     public:
         Femme();

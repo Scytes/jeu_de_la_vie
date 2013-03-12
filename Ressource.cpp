@@ -12,6 +12,8 @@
 
 Ressource::Ressource()
 {
-
+    qteDeRessource = 0;
 }
+
+Ressource::Ressource(int _qteRess) : qteDeRessource(_qteRess) {}
 
