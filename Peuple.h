@@ -11,18 +11,27 @@
 #if !defined(_PEUPLE_H)
 #define _PEUPLE_H
 
+using namespace std;
 
 class Peuple
 {
     private:
-        int nbrElements;
-        int qteRessources;
+        unsigned int nbrElements;
+        unsigned int qteRessources;
     public:
         Peuple();
-        void getNbrElement();
-        void getQteRessource();
-        void setNbrElement();
-        void setQteRessource();
+
+        void addElement(_NbElem);
+        void addRessource(_QteRess);
+
+        // Getters
+        unsigned int getNbrElement();
+        unsigned int getQteRessource();
+
+        //Setters
+        void setNbrElement(_NbElem);
+        void setQteRessource(_QteRess);
+
 };
 
 #endif  //_PEUPLE_H

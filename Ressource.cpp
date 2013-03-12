@@ -15,5 +15,10 @@ Ressource::Ressource()
     qteDeRessource = 0;
 }
 
-Ressource::Ressource(int _qteRess) : qteDeRessource(_qteRess) {}
+Ressource::Ressource(unsigned int _qteRess) : qteDeRessource(_qteRess) {}
 
+// Getters
+unsigned int Ressource::getQteRess()
+{
+    return qteDeRessource;
+}

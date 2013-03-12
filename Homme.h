@@ -21,6 +21,9 @@ class Homme : public Mobile, public Adulte
     public:
         Homme();
         Homme(unsigned int _pv, unsigned int _age, unsigned int _esperanceDeVie, unsigned int _forceAuCombat, unsigned int _vision, unsigned int _vitesse );
+
+        void agire();
+        void tuerLapin();
 };
 
 #endif  //_HOMME_H

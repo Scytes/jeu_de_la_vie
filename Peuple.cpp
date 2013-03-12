@@ -10,28 +10,43 @@
 
 #include "Peuple.h"
 
+// Constructeur
 Peuple::Peuple()
 {
-
+    nbrElements = 0;
+    qteRessources = 0;
 }
 
-void Peuple::getNbrElement()
+void Peuple::addElement(_NbElem)
 {
-
+    nbrElements = nbrElements + _NbElem ;
 }
 
-void Peuple::getQteRessource()
+void Peuple::addRessource(_QteRess)
 {
-
+    qteRessources = qteRessources + _QteRess ;
 }
 
-void Peuple::setNbrElement()
+// Getters
+unsigned int Peuple::getNbrElement()
 {
-
+    return nbrElements;
 }
 
-void Peuple::setQteRessource()
+unsigned int Peuple::getQteRessource()
 {
-
+    return qteRessources;
 }
+
+// Setters
+void Peuple::setNbrElement(_NbElem)
+{
+    nbrElements = _NbElem;
+}
+
+void Peuple::setQteRessource(_QteRess)
+{
+    qteRessources = _QteRess;
+}
+
 

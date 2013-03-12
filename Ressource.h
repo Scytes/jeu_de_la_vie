@@ -16,10 +16,13 @@
 class Ressource : public Element
 {
     private:
-        int qteDeRessource;
+        unsigned int qteDeRessource;
     public:
         Ressource();
-        Ressource(int _qteRess);
+        Ressource(unsigned int _qteRess);
+
+        // Getters
+        unsigned int getQteRess();
 };
 
 #endif  //_RESSOURCE_H
