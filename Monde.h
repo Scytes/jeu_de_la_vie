@@ -3,15 +3,12 @@
 
 #include <map>
 #include <iostream>
+#include "constantes.h"
 #include "Position.h"
 
 class Monde : public vector<Element *>
 {
     private :
-
-        // Constantes
-        const unsigned int MAX_ABSCISSE = 7 ;
-        const unsigned int MAX_ORDONNEE = 15 ;
 
         // Attributs
         map<Position, unsigned int> world ;
