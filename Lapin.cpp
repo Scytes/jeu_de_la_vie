@@ -12,7 +12,7 @@
 
 Lapin::Lapin() : Ressource(VAL_LAPIN_RESSOURCE),Mobile(LAPIN_VITESSE){}
 
-void Morde(_MembreDP)
+void mordre(_MembreDP)
 {
     _MembreDP.setPV(_MembreDP.getPV() - LAPIN_DEGATS);
 }
