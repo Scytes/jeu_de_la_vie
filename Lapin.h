@@ -21,7 +21,7 @@ class Lapin : public Ressource, public Mobile
 {
     public:
         Lapin();
-        void morde( MembreDuPeuple _MembreDP);
+        void mordre( MembreDuPeuple _MembreDP);
 };
 
 #endif  //_LAPIN_H
