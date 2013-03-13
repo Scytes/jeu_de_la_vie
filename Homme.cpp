@@ -17,7 +17,7 @@ Homme:: Homme(unsigned int _pv, unsigned int _age, unsigned int _esperanceDeVie,
 
 
 // Methode de gestion du comportement des hommes
-void agire()
+void Homme::agire()
 {
     bool lapinTrouve = false;
     bool femmeTrouve = false;
@@ -35,7 +35,7 @@ void agire()
     }
 }
 
-void tuerLapin(lapin _lap)
+void Homme::tuerLapin(Lapin _lap)
 {
     /*peuple*/.addRessource(_lap.getQteRess()); //Ajout de la reesource au stock du peuple
 

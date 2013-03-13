@@ -21,6 +21,9 @@ class Femme : public Mobile, public adulte
     public:
         Femme();
         Femme(unsigned int _pv, unsigned int _age, unsigned int _esperanceDeVie, unsigned int _forceAuCombat, unsigned int _vision, unsigned int _vitesse);
+
+        void agire();
+        void recolterBuisson(Buisson);
 };
 
 #endif  //_FEMME_H
