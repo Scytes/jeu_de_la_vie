@@ -1,16 +1,16 @@
 #ifndef CONSTANTES_H
 #define CONSTANTES_H
 
-// Paramètres du Monde
+// Paramètres du monde
 const unsigned int MAX_ABSCISSE = 7 ;
 const unsigned int MAX_ORDONNEE = 15 ;
 
-// Paramètres des Lapins
+// Paramètres des lapins
 const unsigned int VAL_LAPIN_RESSOURCE = 6 ;
 const unsigned int LAPIN_VITESSE = 1;
 const unsigned int LAPIN_DEGATS = 5;
 
-// Paramètres des Buissons
+// Paramètres des buissons
 const unsigned int VAL_BUISSON_RESSOURCE = 3 ;
 
 
