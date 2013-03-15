@@ -22,7 +22,7 @@ class Position
         unsigned int getOrdonnee() const ;
 
         // Générateur
-        Position randomPos (const unsigned int, const unsigned int) ;
+        Position randomPos (const unsigned int, const unsigned int, const unsigned int, const unsigned int) ;
 };
 
 #endif

@@ -3,9 +3,11 @@
 
 #include <map>
 #include <iostream>
+#include <vector>
+#include <stdlib.h>
 #include "constantes.h"
 #include "Element.h"
-#include <vector>
+#include "Position.h"
 
 using namespace std ;
 
@@ -21,6 +23,10 @@ class Monde : public vector<Element *>
         Monde() ;
         // Modificateurs
         //void addElement(Element *, const Position) ;
+        // Affichage
+        void afficher() const ;
+        // Getters
+        map<Position, unsigned int> getMap() const ;
 };
 
 #endif

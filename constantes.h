@@ -2,6 +2,8 @@
 #define CONSTANTES_H
 
 // Paramètres du monde
+const unsigned int MIN_ABSCISSE = 1 ;
+const unsigned int MIN_ORDONNEE = 1 ;
 const unsigned int MAX_ABSCISSE = 7 ;
 const unsigned int MAX_ORDONNEE = 15 ;
 
