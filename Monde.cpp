@@ -6,10 +6,10 @@ Monde::Monde()
 {
 //    do
 //    {
-        Position pos = randomPos(MIN_ABSCISSE, MAX_ABSCISSE, MIN_ORDONNEE, MAX_ORDONNEE) ;
+        Position pos = pos.randomPos(MIN_ABSCISSE, MAX_ABSCISSE, MIN_ORDONNEE, MAX_ORDONNEE) ;
 //    } while (!positionLibre(pos)) ;
 
-	map<Position, unsigned>:: iterator it ;
+	map<Position, unsigned>::iterator it ;
 //	if(find(pos)== it.end())
 
 	Element * elt = new Element(this, "toto", pos) ;

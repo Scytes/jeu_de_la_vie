@@ -36,7 +36,9 @@
 	<stdlib.h>
 	"Position.h"
 
-1363347035 c:\users\florian\documents\github\jeu_de_la_vie\position.h
+1363347642 c:\users\florian\documents\github\jeu_de_la_vie\position.h
+	<stdlib.h>
+	<iostream>
 
 1363345207 source:c:\users\florian\documents\github\jeu_de_la_vie\monde.cpp
 	"Monde.h"
