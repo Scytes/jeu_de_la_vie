@@ -1,4 +1,5 @@
 #include "Position.h"
+#include <stdlib.h>
 #include <iostream>
 
 // Constructeurs

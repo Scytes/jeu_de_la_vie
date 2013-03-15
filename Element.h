@@ -2,6 +2,7 @@
 #define ELEMENT_H
 
 #include "Position.h"
+#include <string>
 
 using namespace std ;
 
@@ -10,14 +11,22 @@ class Monde ;
 class Element
 {
     private :
-        Monde * world ;
-        Position * posE ;
+        Monde * worldE ;
+        Position posE ;
         string nomE ;
 
     public :
-
+        // Constructeur
+        Element() ;
+        Element (Monde *, const string &, const Position &) ;
+        // Getters
+        Monde * getMonde() ;
+        Position getPosition() ;
+        string getNom() ;
+        // Setters
+        void setPosition(const Position) ;
+        void setNom (const string) ;
 };
 
-#include "Monde.h"
 
 #endif // ELEMENT_H

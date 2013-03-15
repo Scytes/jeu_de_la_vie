@@ -22,11 +22,6 @@ class Position
         unsigned int getOrdonnee() const ;
 
         // Générateur
-        /**
-            Retourne une Position dont l'abscisse et l'ordonnée sont <= aux valeurs passées en paramètre.
-            @param _maxAbs La valeur de l'abscisse maximale.
-            @param _maxOrd La valeur de l'ordonnée maximale.
-        **/
         Position randomPos (const unsigned int, const unsigned int) ;
 };
 
