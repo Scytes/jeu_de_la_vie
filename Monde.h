@@ -4,6 +4,7 @@
 #include <map>
 #include <iostream>
 #include <vector>
+#include <typeinfo>
 #include <stdlib.h>
 #include "constantes.h"
 #include "Element.h"
@@ -22,11 +23,14 @@ class Monde : public vector<Element *>
         // Constructeurs
         Monde() ;
         // Modificateurs
-        //void addElement(Element *, const Position) ;
+        void addElement(Element *, const Position) ;
         // Affichage
         void afficher() const ;
         // Getters
-        map<Position, unsigned int> getMap() const ;
+        const map<Position, unsigned int> & getMap() const ;
+        map<Position, unsigned int> & getMap() ;
+        // Autres
+        bool positionLibre (Position) ;
 };
 
 #endif

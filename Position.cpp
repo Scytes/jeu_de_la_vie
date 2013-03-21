@@ -30,20 +30,3 @@ unsigned int Position::getOrdonnee() const
 {
     return ordonnee;
 }
-
-
-// Générateur
-
-/**
-    Retourne une Position dont l'abscisse et l'ordonnée sont < aux valeurs passées en paramètre.
-    @param _minAbs La valeur de l'abscisse minimale.
-    @param _maxAbs La valeur de l'abscisse maximale.
-    @param _minOrd La valeur de l'ordonnée minimale.
-    @param _maxOrd La valeur de l'ordonnée maximale.
-**/
-Position randomPos (const unsigned int _minAbs, const unsigned int _maxAbs, const unsigned int _minOrd, const unsigned int _maxOrd)
-{
-    // On crée la nouvelle position
-    Position newPos((int) _minAbs + rand()%(_maxAbs - _minAbs), (int) _minOrd + rand()%(_maxOrd - _minOrd)) ;
-    return newPos ;
-}

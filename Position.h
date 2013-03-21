@@ -23,9 +23,6 @@ class Position
         // Getters
         unsigned int getAbscisse() const ;
         unsigned int getOrdonnee() const ;
-
-        // Générateur
-        Position randomPos (const unsigned int, const unsigned int, const unsigned int, const unsigned int) ;
 };
 
 #endif

@@ -3,6 +3,8 @@
 
 #include "Position.h"
 #include <string>
+#include <iostream>
+
 
 using namespace std ;
 
@@ -12,8 +14,8 @@ class Element
 {
     private :
         Monde * worldE ;
-        Position posE ;
         string nomE ;
+        Position posE ;
 
     public :
         // Constructeur
@@ -25,7 +27,9 @@ class Element
         string getNom() ;
         // Setters
         void setPosition(const Position) ;
-        void setNom (const string) ;
+        void setNom(const string) ;
+        // Affichage
+        void afficher() const ;
 };
 
 

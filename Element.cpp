@@ -6,10 +6,7 @@
 
 Element::Element() {}
 
-Element::Element (Monde * _world, const string & _nom, const Position & _pos) : worldE(_world), nomE(_nom), posE(_pos)
-{
-
-}
+Element::Element (Monde * _world, const string & _nom, const Position & _pos) : worldE(_world), nomE(_nom), posE(_pos) {}
 
 
 // Getters
@@ -40,4 +37,12 @@ void Element::setPosition(const Position _pos)
 void Element::setNom (const string _nom)
 {
     nomE = _nom ;
+}
+
+
+// Affichage
+
+void Element::afficher() const
+{
+    cout<<"("<<posE.getAbscisse()<<" ; "<<posE.getOrdonnee()<<") -> "<<nomE<<endl ;
 }
