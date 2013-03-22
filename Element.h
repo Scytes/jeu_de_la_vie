@@ -32,5 +32,5 @@ class Element
         void afficher() const ;
 };
 
-
+#include"Monde.h"
 #endif // ELEMENT_H

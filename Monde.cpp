@@ -24,11 +24,22 @@ Monde::Monde()
 }
 
 
-void Monde::addElement(Element * _elt, const Position _posEl)
+// Modificateurs
+
+void Monde::addElementAtPosition(Element * _elt, const Position _posEl)
 {
 	push_back(_elt) ; // On ajoute l'élement dans le vector
 	worldmap[_posEl] = this->size()-1 ; // On ajoute l'élément dans le worldmap en utilisant son indice dans le vector
-	cout<<"Element "<<_elt.getNom()<<" ajouté !" ;
+	cout<<"Element "<<_elt->getNom()<<" ajoute !" ;
+}
+
+void Monde::addElement(Element * _elt)
+{
+    do
+    {
+        pos = Position((int) MIN_ABSCISSE + rand()%(MAX_ABSCISSE - MIN_ABSCISSE), (int) MIN_ORDONNEE + rand()%(MAX_ORDONNEE - MIN_ORDONNEE)) ;
+    } while (!positionLibre(pos)) ;
+    addElementAtPosition(_elt, pos) ;
 }
 
 

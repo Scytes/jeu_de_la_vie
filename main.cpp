@@ -14,16 +14,20 @@ int main()
     Monde md ;
     Position pos ;
 
-    // test afficher
-    md.afficher() ;
-
-    // test addElement
-    /*do
+    // test addElementAtPosition
+    do
     {
         pos = Position((int) MIN_ABSCISSE + rand()%(MAX_ABSCISSE - MIN_ABSCISSE), (int) MIN_ORDONNEE + rand()%(MAX_ORDONNEE - MIN_ORDONNEE)) ;
     } while (!md.positionLibre(pos)) ;
     Element * elt = new Element(&md, "xavier", pos) ;
-    md.addElement(elt, pos) ;*/
+    md.addElementAtPosition(elt, pos) ;
+
+    // test addElement avec un Lapin
+    Lapin * lap = new Lapin(&md, "lapin", pos) ;
+    md.addElement(lap) ;
+
+    // test afficher
+    md.afficher() ;
 
     return 0;
 }

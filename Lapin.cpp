@@ -10,9 +10,29 @@
 #include "constantes.h"
 #include "Lapin.h"
 
-Lapin::Lapin() : Ressource(VAL_LAPIN_RESSOURCE),Mobile(LAPIN_VITESSE){}
+Lapin::Lapin(Monde * _world, const string & _nom, const Position & _pos) : Element(_world, _nom, _pos), Ressource(VAL_LAPIN_RESSOURCE), Mobile(LAPIN_VITESSE){}
 
-void mordre(_MembreDP)
+//void Lapin::mordre(MembreDuPeuple _MembreDP)
+//{
+//    _MembreDP.setPV(_MembreDP.getPV() - LAPIN_DEGATS);
+//}
+
+void Lapin::sauter()
 {
-    _MembreDP.setPV(_MembreDP.getPV() - LAPIN_DEGATS);
+    Position newPos, oldPos = getPosition() ;
+    int nbDep = getVitesse() ;
+
+    while (nbDep > 0)
+    {
+        // On génère une position adjacente
+        newPos = seDeplacer() ;
+        while (!getMonde()->positionLibre(newPos))
+            newPos = seDeplacer() ;
+
+        // On met à jour la position dans le monde
+        setPosition(newPos) ;
+        unsigned int indice = getMonde()->getMap().find(oldPos)->second ;
+        getMonde()->getMap().erase(oldPos) ;
+        getMonde()->getMap().insert(pair<Position, unsigned>(newPos, indice)) ;
+    }
 }

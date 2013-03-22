@@ -36,10 +36,16 @@
 			<Option compile="0" />
 		</Unit>
 		<Unit filename="Element.h" />
+		<Unit filename="Lapin.cpp" />
+		<Unit filename="Lapin.h" />
+		<Unit filename="Mobile.cpp" />
+		<Unit filename="Mobile.h" />
 		<Unit filename="Monde.cpp" />
 		<Unit filename="Monde.h" />
 		<Unit filename="Position.cpp" />
 		<Unit filename="Position.h" />
+		<Unit filename="Ressource.cpp" />
+		<Unit filename="Ressource.h" />
 		<Unit filename="constantes.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>

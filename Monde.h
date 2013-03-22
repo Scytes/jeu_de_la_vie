@@ -9,6 +9,7 @@
 #include "constantes.h"
 #include "Element.h"
 #include "Position.h"
+#include "Lapin.h"
 
 using namespace std ;
 
@@ -23,7 +24,8 @@ class Monde : public vector<Element *>
         // Constructeurs
         Monde() ;
         // Modificateurs
-        void addElement(Element *, const Position) ;
+        void addElementAtPosition(Element *, const Position) ;
+        void addElement(Element *) ;
         // Affichage
         void afficher() const ;
         // Getters

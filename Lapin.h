@@ -20,8 +20,9 @@ using namespace std;
 class Lapin : public Ressource, public Mobile
 {
     public:
-        Lapin();
-        void mordre( MembreDuPeuple _MembreDP);
+        Lapin(Monde *, const string &, const Position &);
+//        void mordre(MembreDuPeuple);
+        void sauter ();
 };
 
 #endif  //_LAPIN_H

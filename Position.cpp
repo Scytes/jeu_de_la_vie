@@ -30,3 +30,12 @@ unsigned int Position::getOrdonnee() const
 {
     return ordonnee;
 }
+
+
+// Setters
+
+void Position::setPosition (unsigned int _newX, unsigned int _newY)
+{
+    abscisse = _newX ;
+    ordonnee = _newY ;
+}

@@ -23,6 +23,9 @@ class Position
         // Getters
         unsigned int getAbscisse() const ;
         unsigned int getOrdonnee() const ;
+
+        // Setters
+        void setPosition (unsigned int, unsigned int) ;
 };
 
 #endif

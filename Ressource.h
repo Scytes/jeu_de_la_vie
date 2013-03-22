@@ -13,7 +13,7 @@
 
 #include "Element.h"
 
-class Ressource : public Element
+class Ressource : public virtual Element
 {
     private:
         unsigned int qteDeRessource;
